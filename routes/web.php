@@ -32,4 +32,4 @@ Route::get('/about', function () {
 
 Route::get('/posts', [PostController::class, 'index']);
 //single web for post
-Route::get('posts/{slug}', [PostController::class, 'show']);
+Route::get('posts/{post:slug}', [PostController::class, 'show']);

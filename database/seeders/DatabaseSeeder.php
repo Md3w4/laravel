@@ -45,7 +45,7 @@ class DatabaseSeeder extends Seeder
             'slug' => 'web-design'
         ]);
 
-        Post::factory(5)->create();
+        Post::factory(20)->create();
 
         /*Post::create([
             'title' => 'Judul Pertama',

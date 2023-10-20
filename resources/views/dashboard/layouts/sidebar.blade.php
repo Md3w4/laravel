@@ -31,7 +31,7 @@
                 </li>
                 </li>
             </ul>
-        @endcan 
+        @endcan
 
     </div>
 </nav>

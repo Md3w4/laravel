@@ -1,8 +1,11 @@
 @extends('dashboard.layouts.main')
 
 @section('container')
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Edit Post</h1>
+    <div class="d-flex justify-content-start flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <a href="/dashboard/posts" class="text-decoration-none align-items-center">
+            <span data-feather="arrow-left" class="feather-xl me-2"></span>
+        </a>
+        <h1 class="text-dark">Edit Post</h1>
     </div>
 
     <div class="col-lg-8">

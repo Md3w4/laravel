@@ -5,7 +5,7 @@
         <a href="/dashboard/posts" class="text-decoration-none align-items-center">
             <span data-feather="arrow-left" class="feather-xl me-2"></span>
         </a>
-        <h1 class="text-dark">Edit Post</h1>
+        <h1 class="text-dark">Edit Pos</h1>
     </div>
 
     <div class="col-lg-8">
